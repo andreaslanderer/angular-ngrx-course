@@ -14,7 +14,7 @@ import {AuthModule} from './auth/auth.module';
 import {StoreModule} from '@ngrx/store';
 import {StoreDevtoolsModule} from '@ngrx/store-devtools';
 import {metaReducers, reducers} from './reducers';
-import {environment} from '../../environments/environment';
+import {environment} from '../environments/environment';
 
 
 const routes: Routes = [
